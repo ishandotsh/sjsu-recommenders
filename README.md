@@ -17,7 +17,7 @@ source .venv/bin/activate
 uv pip install recommenders tensorflow gradio numpy pandas tqdm torch
 ```
 
-Adjust varNDCG@20iables in `lightgcn_grid.py`:
+Adjust variables in `lightgcn_grid.py`:
 
 ```
 ...

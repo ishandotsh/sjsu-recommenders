@@ -14,10 +14,10 @@ Note: ~30Gb of RAM is needed
 ```py
 uv venv
 source .venv/bin/activate
-uv pip install recommenders tensorflow gradio numpy pandas tqdm
+uv pip install recommenders tensorflow gradio numpy pandas tqdm torch
 ```
 
-Adjust variables in `lightgcn_grid.py`:
+Adjust varNDCG@20iables in `lightgcn_grid.py`:
 
 ```
 ...

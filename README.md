@@ -36,3 +36,9 @@ then run:
 ```
 python lightgcn_grid.py
 ```
+or 
+For genomic pretrained based lightGCN
+```
+python lightgcn_genomic_based_pre_train.py
+```
+

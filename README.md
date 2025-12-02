@@ -14,7 +14,7 @@ Note: ~30Gb of RAM is needed
 ```py
 uv venv
 source .venv/bin/activate
-uv pip install recommenders tensorflow gradio numpy pandas tqdm
+uv pip install recommenders tensorflow gradio numpy pandas tqdm torch
 ```
 
 Adjust variables in `lightgcn_grid.py`:
@@ -36,3 +36,9 @@ then run:
 ```
 python lightgcn_grid.py
 ```
+or 
+For genomic pretrained based lightGCN
+```
+python lightgcn_genomic_based_pre_train.py
+```
+
